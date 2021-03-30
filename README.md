@@ -63,13 +63,13 @@ ANSWER:
 
 A new social network site has the following data tables:
 
-| USERS |
-| --- |
-| ID |	NAME | SEX |
-| 1 | Ann | null |
-| 2 | Steve | m |
-| 3 | Mary | f |
-| 4 | Brenda | f |
+|   USERS                        |
+|----------|-----------|---------|
+|   ID     |   NAME    |   SEX   |
+|   1      |   Ann     |   null  |
+|   2      |   Steve   |   m     |
+|   3      |   Mary    |   f     |
+|   4      |   Brenda  |   f     |
 
 |FRIENDS|
 | --- |
