@@ -65,7 +65,6 @@ A new social network site has the following data tables:
 
 | USERS |
 | --- |
-
 | ID |	NAME | SEX |
 | 1 | Ann | null |
 | 2 | Steve | m |
