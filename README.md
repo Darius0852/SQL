@@ -5,7 +5,7 @@
 
 ##Questions from TestDome
 
-1)
+1) **Pets**
 
 Write a query that select all distinct pet names.
 
@@ -15,7 +15,7 @@ ANSWER:
   UNION 
   SELECT name FROM cats
 ```
-2)
+2) **Students**
 
 write a query that returns the number of students whose first name is John.
 
@@ -23,7 +23,7 @@ ANSWER:
 ```
   SELECT COUNT(*) FROM students WHERE firstName = "John";
 ```
-3)
+3) **Workers**
 
 The following data definition defines an organization's employee hierarchy.
 An employee is a manager if any other employee has their managerId set to this employee's id. That means John is a manager if at least one other employee has their managerId set to John's id.
@@ -38,7 +38,7 @@ ANSWER:
   SELECT name FROM employees
   WHERE id NOT IN (SELECT managerId from employees WHERE managerId IS NOT NULL)
 ```
-4)
+4) **Web Shop**
 
 Each item in a web shop belongs to a seller. To ensure service quality, each seller has a rating.
 The data are kept in the following two tables:
@@ -59,11 +59,67 @@ ANSWER:
   join sellers on items.sellerId = sellers.id
   where sellers.rating > 4;
 ```
-5)
+5) **Social Network**
+
+ANSWER:
+
+```
+
+```
 
 
 
 
+6) **Enrollment**
 
 
-6)
+
+
+ANSWER:
+
+```
+
+```
+
+7) **Users and Roles**
+
+
+
+
+ANSWER:
+
+```
+
+```
+
+
+8) **Regoinal Sales Comparison**
+
+
+
+
+ANSWER:
+
+```
+
+```
+
+9) **Sessions**
+
+
+
+ANSWER:
+
+```
+
+```
+
+10) **Student Max Score**
+
+
+
+ANSWER:
+
+```
+
+```
