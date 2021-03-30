@@ -66,18 +66,18 @@ A new social network site has the following data tables:
 | USERS |
 | --- |
 
-| ID |	NAME |	SEX |
-| 1 |	Ann |	null |
-| 2 |	Steve |	m |
-| 3 |	Mary |	f |
-| 4 |	Brenda | f |
+| ID |	NAME | SEX |
+| 1 | Ann | null |
+| 2 | Steve | m |
+| 3 | Mary | f |
+| 4 | Brenda | f |
 
 |FRIENDS|
 | --- |
 | USER1 | USER2 |
-| 1 | 2 |
-| 1 | 3 |
-| 2 | 3 |
+| 1 | 	2 |
+| 1 | 	3 |
+| 2 | 	3 |
 
 Select data that will be returned by the following SQL query:
 
