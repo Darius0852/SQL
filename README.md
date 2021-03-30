@@ -63,7 +63,7 @@ ANSWER:
 
 A new social network site has the following data tables:
 
-|   USERS                        |
+|   USERS  |           |         |
 |----------|-----------|---------|
 |   ID     |   NAME    |   SEX   |
 |   1      |   Ann     |   null  |
@@ -71,12 +71,14 @@ A new social network site has the following data tables:
 |   3      |   Mary    |   f     |
 |   4      |   Brenda  |   f     |
 
-|FRIENDS|
-| --- |
-| USER1 | USER2 |
-| 1 | 	2 |
-| 1 | 	3 |
-| 2 | 	3 |
+|   FRIENDS  |           |
+|------------|-----------|
+|   USER1    |   USER2   |
+|   1        |   2       |
+|   1        |   3       |
+|   2        |   3       |
+|   4        |   Brenda  |
+
 
 Select data that will be returned by the following SQL query:
 
