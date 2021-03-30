@@ -89,7 +89,7 @@ GROUP BY users.id, users.name;
 ANSWER:
 
 ```
-  Mary, 2
+  	Mary, 2
 	Brenda, 1
 ```
 
