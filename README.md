@@ -77,7 +77,6 @@ A new social network site has the following data tables:
 |   1        |   2       |
 |   1        |   3       |
 |   2        |   3       |
-|   4        |   Brenda  |
 
 
 Select data that will be returned by the following SQL query:
